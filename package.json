@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "babel src --out-dir dist -w --skip-initial-build --no-comments --out-file-extension .c.js --compact true"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

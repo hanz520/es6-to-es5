@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "compile es6+",
+			"detail": "babel src --out-dir dist -w --skip-initial-build --no-comments --out-file-extension .c.js --compact true",
+			"runOptions":{
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}
